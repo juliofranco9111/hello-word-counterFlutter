@@ -15,16 +15,16 @@ class _ContadorPageState extends State<ContadorPage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text('Mi primera App en Fluta'),
+          title: const Text('Mi primera App en Livaorsi'),
           centerTitle: true,
-          elevation: 3.8,
+          elevation: 1.8,
         ),
         body: Center(
             child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'Número de taps',
+              'Número de clicks',
               style: _estiloTexto,
             ),
             Text(
